@@ -1,3 +1,102 @@
-h3{
-    margin-left: 300px;
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #B2B0B0;
+    
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    height: 109vh;
+
+}
+
+
+.navbar{
+    width: 1920px;
+    height: 75px;
+    margin: auto;
+    background-color: black;
+}
+
+.icon > img {
+    width: 100px;
+    float: left;
+    height: 70px;
+
+}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.pg > img {
+    width: 100%;
+    transition: 0.2s transform;
+    height: 700px;
+    margin-bottom: 100px;
+
+}
+
+.over > h2 {
+    padding-left: 200px;
+}
+
+.over > p {
+    padding-left: 200px;
+    width: 750px;
+    height: 200px;
+    padding-top: 5px;
+}
+
+.over > img {
+    float: right;
+    margin-right: 500px;
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+  
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
