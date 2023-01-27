@@ -1,102 +1,169 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #B2B0B0;
-    
+body {
+  background-color: #b2b0b0;
+  width: 80%;
 }
 
-.main{
-    width: 100%;
-    background-position: center;
-    height: 109vh;
-
+.main {
+  width: 100%;
+  background-position: center;
+  height: 109vh;
 }
 
-
-.navbar{
-    width: 1920px;
-    height: 75px;
-    margin: auto;
-    background-color: black;
+html {
+  scroll-behavior: smooth;
+}
+/*de van bar en het menus daarin*/
+.navbar {
+  width: 1920px;
+  height: 75px;
+  margin: auto;
+  background-color: black;
 }
 
 .icon > img {
-    width: 100px;
-    float: left;
-    height: 70px;
-
+  width: 100px;
+  float: left;
+  height: 70px;
 }
 
-
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
 }
 
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-ul li{
-    list-style: none;
-    margin-left: 70px;
-    margin-top: 20px;
-    font-size: 14px;
+.menu ul li {
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-    
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
 }
 
-ul li a:hover{
-    color: #ff7200;
+.menu ul li a:hover {
+  color: #ff7200;
 }
 
 .pg > img {
-    width: 100%;
-    transition: 0.2s transform;
-    height: 700px;
-    margin-bottom: 100px;
-
+  width: 100%;
+  transition: 0.2s transform;
+  height: 700px;
+  margin-bottom: 100px;
+}
+/*klein stukje geschiendernis*/
+.over {
+  padding-top: 60px;
 }
 
 .over > h2 {
-    padding-left: 200px;
+  padding-left: 200px;
 }
 
 .over > p {
-    padding-left: 200px;
-    width: 750px;
-    height: 200px;
-    padding-top: 5px;
+  padding-left: 200px;
+  width: 750px;
+  height: 200px;
+  padding-top: 5px;
 }
 
 .over > img {
-    float: right;
-    margin-right: 500px;
-    height: 250px;
-    width: 300px;
-    border: 2px solid black;
+  float: right;
+  margin-right: 500px;
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+/* soorten games */
+.games {
+  background-color: #787676;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.games ul {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  right: 20%;
+  text-align: center;
+}
+
+.games ul li {
+  padding: 0%;
+  margin: 0 auto;
+  width: 26.5%;
+  color: white;
+  background: #585656;
+  border-radius: 10px;
   
 }
 
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+.games > ul > li > img {
+  width: 80%;
+  border-radius: 20px;
+  height: 70%;
+  padding-top: 40px;
+  object-fit: cover;
+}
+
+
+/* openingstijden */
+.openingstijden {
+  margin-left: 60px;
+  margin-top: 100px;
+  background: #787676;
+  height: 30vh;
+  width: 70vh;
+}
+
+.openingstijden ul > li > h3 {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.openingstijden ul > li > p {
+  background: #ff7200;
+  
+}
+
+
+/* ticket */
+.tickets{
+  
+}
+
+/*eigen game*/
+.eigengame {
+  
+}
+
+/*meer*/
+.more {
+  margin-top: 100px;
+  background: #8f8f8f;
+  text-align: left;
+  text-indent: 200px;
 }
