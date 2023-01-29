@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="star-full" href="image/star.png">
     <title>game museum zoetenmeer </title>
 </head>
 <body>
@@ -53,17 +54,17 @@
         <article class="games">
             <ul>
                 <li>
-                    <img src="image/gameDonkeyKong.png" alt="">
+                    <img src="image/gameDonkeyKong.png" alt="hier zie je een aap die tonnen naar beneden rold">
                     <h3 class="titelGame">donkey kong </h3>
-                    <p>in het spel moet je een prinses redden voor het monster </p>
+                    <p>in het spel moet je een prinses redden van het monster </p>
                 </li>
                 <li>
-                    <img src="image/gamePacman.png" alt="">
+                    <img src="image/gamePacman.png" alt="hier zie je een doolhoof met spoken en een halve kaas ">
                     <h3 class="titelGame">pac man </h3>
                     <p>dit is een spel dat je moet weg rennen voor 3 spooken </p>
                 </li>
                 <li>
-                    <img src="image/gameKart.png" alt="">
+                    <img src="image/gameKart.png" alt="hier zie je een meneer met een snor mario aan het karten ">
                     <h3 class="titelGame">mario cart</h3>
                     <p>spel dat je moet racen tegen je vrienden</p>
                 </li>
@@ -72,45 +73,66 @@
     </section>
 
     <!-- wanneer gebruik je ul/li ? je gebruikt ul/li wanneer je bepaalde informatie bij elkaar moet verzamelen! -->
-
-    <section>
-        <article class="openingstijden" id="openingstijden">
-            <ul>
-                <li>
-                    <h3>Openingstijden</h3>
-                    <p>
-                        <br>Ma: Gesloten
-                        <br>Di: Gesloten
-                        <br>Wo: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                        <br>Do: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                        <br>Vr: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 |18.00-21.00 uur
-                        <br>Za: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                        <br>Zo: 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                    </p>
-                </li>
-                
-            </ul>
-        </article>
-        <ul>
+    <!--maak er een section van ul li weg het moet flex worden flex row om alles naast elkaar te zetten -->
+    <section class="openingstijden" id="openingstijden">
+        <h3>Openingstijden</h3>
+        <p>
+            <br>Ma: Gesloten
+            <br>Di: Gesloten
+            <br>Wo: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+            <br>Do: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+            <br>Vr: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 |18.00-21.00 uur
+            <br>Za: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+            <br>Zo: 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+        </p>   
             <li class="tickets">
-                <img src="" alt="">
+                
                 <button><a href="https://www.nationaalvideogamemuseum.nl/tickets">KLIK</a></button>
             </li>
-        </ul>
+        
     </section>
 
     <div class="eigenGame">
-        <p></p>
+        
     </div>
 
+    <section id="review">
+        <div class="review-heading" >
 
-    <div class="review" id="review">
+            <span>comments</span>
+            <h3>reviews</h3>
+        </div>
 
-    </div>
+        <div class="review-box-container">
+
+            <!--box1------>
+            <div class="review-box">
+                <!---top------>
+                <div class="box-top">
+                    <!--profiel---->
+                    <div class="profiel">
+                        <!---img---->
+                        <div class="profiel-img">
+                            <img src="image/profiel.png" alt="hier zie je een foto van een persoon">
+                        </div>
+                        <div class="name-user">
+                            <strong>davey v dijk</strong>
+                            <span>@daveyvdijkweb</span>
+                        </div>
+                    </div>
+                    <!---review-->
+                    <div class="reviews">
+             
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <div class="more" id="more">
-        <br><p>over ons partners</p>
+        <p>over ons </p>
         <p>partners</p>
         <p>pers</p>
         <p>contact</p>
