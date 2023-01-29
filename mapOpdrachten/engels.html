@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.1.2/js/star-rating.min.js">
     <title>game museum zoetenmeer </title>
 </head>
 <body>
@@ -26,7 +28,7 @@
                     <li><a href="index.html">LANGUAGE</a></li>
                     <li><a href="#Game">GAMES</a></li>
                     <li><a href="#over">ABOUT US</a></li>
-                    <li><a href="#over">CONTACT</a></li>
+                    <li><a href="#more">CONTACT</a></li>
                     <li><a href="#more">MORE</a></li>
                 </ul>
             </div>
@@ -36,15 +38,13 @@
     
     <div class="over" id="over">
             <img src="image/3.png" alt="hier zie je een plaatje van de binnen kant van het museum met verschillende game machines">
-        <h2>
-            about us
-        </h2>
-         <p>
-            The National Video Game Museum is 'the place to be'
-            for anyone who wants to know (and experience) more
-            about the history, social and cultural side of video games.
+        <h2>about us</h2>
+        <p>
+            The National Videogame Museum is 'the place to be' 
+            for everyone who wants to know (and experience) more
+            about the history, social and cultural side of video games. 
             The museum also lets its visitors experience the games of tomorrow.
-            Gamers young and old are welcome to play,
+            Gamers from young to old are welcome to play, 
             discover, learn and share experiences online.
         </p>
     </div>
@@ -53,73 +53,198 @@
         <article class="games">
             <ul>
                 <li>
-                    <img src="image/gameDonkeyKong.png" alt="">
+                    <img src="image/gameDonkeyKong.png" alt="hier zie je een aap die tonnen naar beneden rold">
                     <h3 class="titelGame">donkey kong </h3>
-                    <p>in the game you have to save a princess from the monster </p>
+                    <p>in the game you have to save a princess from the monster</p>
                 </li>
                 <li>
-                    <img src="image/gamePacman.png" alt="">
+                    <img src="image/gamePacman.png" alt="hier zie je een doolhoof met spoken en een halve kaas ">
                     <h3 class="titelGame">pac man </h3>
-                    <p>this is a game you have to run away from 3 ghosts </p>
+                    <p>this is a game you have to run away for 3 ghosts</p>
                 </li>
                 <li>
-                    <img src="image/gameKart.png" alt="">
+                    <img src="image/gameKart.png" alt="hier zie je een meneer met een snor mario aan het karten ">
                     <h3 class="titelGame">mario cart</h3>
-                    <p>game you have to race against your friends</p>
+                    <p>game that you have to race against your friends</p>
                 </li>
             </ul>
         </article>
     </section>
-    
+
     <!-- wanneer gebruik je ul/li ? je gebruikt ul/li wanneer je bepaalde informatie bij elkaar moet verzamelen! -->
-
-    <section>
-        <article class="openingstijden" id="openingstijden">
-            <ul>
-                <li>
-                    <h3>Opening hours</h3>
-                    <p>
-                    <br>Ma: Gesloten
-                    <br>Di: Gesloten
-                    <br>Wo: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                    <br>Do: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                    <br>Vr: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 |18.00-21.00 uur
-                    <br>Za: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                    <br>Zo: 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
-                    </p>
-                </li>
-                <li class="tickets">
-                    <img src="" alt="">
-                    <button><a href="https://www.nationaalvideogamemuseum.nl/tickets">KLIK</a></button>
-                </li>
-            </ul>
-        </article>
+    <!--maak er een section van ul li weg het moet flex worden flex row om alles naast elkaar te zetten -->
+    <section class="openingstijden" id="openingstijden">
+        <h3>Opening hours</h3>
+        <p>
+            <br>Ma: Closed
+            <br>Di: Closed
+            <br>Wo: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 hour
+            <br>Do: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 hour
+            <br>Vr: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 |18.00-21.00 hour
+            <br>Za: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 hour
+            <br>Zo: 12.00-14.00 | 14.00-16.00 | 16.00-18.00 hour
+        </p>   
+            <li class="tickets">
+                
+                <button><a href="https://www.nationaalvideogamemuseum.nl/tickets">click</a></button>
+            </li>
+        
     </section>
-
 
     <div class="eigenGame">
-        <p></p>
-    </div>
-
-
-    <div class="review" id="review">
-
-    </div>
-
-
-    <div class="more" id="more">
-        <p>about us</p>
-        <p>partners</p>
-        <p>pers</p>
-        <p>contact</p>
-        <p>support us</p>
-        <p>nieuwsarticel</p>
-        <p>instagram</p>
-        <p>faceboek</p>
-        <p>twitter</p>
         
     </div>
 
+    <section id="review">
+        <div class="review-heading" >
+
+            <span>comments</span>
+            <h3>reviews</h3>
+        </div>
+
+        <div class="review-box-container">
+
+            <!--box1------>
+            <div class="review-box">
+                <!---top------>
+                <div class="box-top">
+                    <!--profiel---->
+                    <div class="profiel">
+                        <!---img---->
+                        <div class="profiel-img">
+                            <img src="image/profiel.png" alt="hier zie je een foto van een persoon">
+                        </div>
+                        <div class="name-user">
+                            <strong>M.l. de Bruijn</strong>
+                            <span>@de Bruijnweb</span>
+                        </div>
+                    </div>
+                    <!---review-->
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                </div>
+                <div class="client-comment">
+                    <p>
+                        I looked out my eyes, 
+                        what a super nice museum. 
+                        Great to be able to get started with these games. 
+                        It used to be like going to an arcade hall without all those guilders and then we're not even talking about the retro game consoles that are there. 
+                        I hope we get to see a lot more
+                    </p>
+                </div>
+            </div>
+
+
+            <!--box2------>
+            <div class="review-box">
+                <!---top------>
+                <div class="box-top">
+                    <!--profiel---->
+                    <div class="profiel">
+                        <!---img---->
+                        <div class="profiel-img">
+                            <img src="image/profiel.png" alt="hier zie je een foto van een persoon">
+                        </div>
+                        <div class="name-user">
+                            <strong>Frank Pronk</strong>
+                            <span>@Frank Pronkweb</span>
+                        </div>
+                    </div>
+                    <!---review-->
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+                <div class="client-comment">
+                    <p>
+                        A place where you can go back in time, 
+                        from atari to PlayStation. 
+                        There is plenty to do here for young and old. 
+                        The arcade cabinets also ensure that in a podracer racing or playing Tekken against people. 
+                        Take a look here and let yourself be overwhelmed by the game world.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <!--box3------>
+            <div class="review-box">
+                <!---top------>
+                <div class="box-top">
+                    <!--profiel---->
+                    <div class="profiel">
+                        <!---img---->
+                        <div class="profiel-img">
+                            <img src="image/profiel.png" alt="hier zie je een foto van een persoon">
+                        </div>
+                        <div class="name-user">
+                            <strong>Iwan Bijmholt</strong>
+                            <span>@Iwan Bijmholtweb</span>
+                        </div>
+                    </div>
+                    <!---review-->
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                </div>
+                <div class="client-comment">
+                    <p>
+                        Been together with 4 boys (10 to 12 years). 
+                        We all enjoyed it. 
+                        Fun games and a lot of nostalgia (at least for me). 
+                        We will definitely go again, 
+                        only from Groningen it is a bit of a drive, 
+                        but well worth it.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer id="more" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul class="ul-footer">
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">partners</a></li>
+                        <li><a href="#">pers</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">steun ons</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/NationaalGameMuseum/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/NaVGMuseum"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/navgmuseum/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.nationaalvideogamemuseum.nl/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
  
 </body>
